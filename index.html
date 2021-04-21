@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <!--the section below change the url title-->
 
 <HEAD>
@@ -59,4 +60,62 @@
     <li>java</li>
 </ol>
 
+<!--how to make a form to collect data from user input-->
+<form action="facebook.com"></form>
+<!--under action you input whatever you need users to be directed to-->
+<form action="facebook.com"></form>
+<!--/ directs to that actual site eg "/facebook.com means facebook.com" while"/about facebook.com means facebbok.com/about"-->
+<form action="/"></form>
+<form action="/about"></form>
+<!--method helps retrieve message as shown below thoygh it is for the server side,at this juncture i will introduce the div tag which should help organize thing in a better way-->
+<!--begginning of form-->
+<form action="/" method="GET">
+ <div>
+     <label for="theinput">Input here</label>
+     <input type='text' name='whatever'>
+</div>
+<div>
+      <label for="email">input email</label>
+      <input type="email"name='email'>
+</div>  
+<!--h0w to create a drop down in html.We shall be referencing w3 school examples-->
+<div>
+    <select>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</div>
+<!--creating a submit button or any type of button--> 
+<input type="submit" value="click me if you want">  
+<!--creation of a text area on yu website forms for easy flow for the users-->
+<textarea name="user message" id="message" cols="30" rows="10"></textarea>
+</form>
+<!--end of form-->
+<hr>
+
+<!--creating tables we need body and and head.<tr> stands for row while th stands for how.<td> stands for table data-->
+<table>
+    <head>
+       <tr>
+           <th>name</th>
+           <th>address</th>
+           <th>region</th>
+           <th>age</th>
+       </tr>
+    </head>
+    <body>
+        <tr>
+            <td>nicholas </td>
+            <td>107 manguo</td>
+            <td>kenya</td>
+            <td>24</td>
+        </tr>
+    </body>
+</table>
+<!--end of tables formation-->
+
+
 </body>
+</html>
